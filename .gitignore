@@ -1,0 +1,18 @@
+# IntelliJ / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Claude Code
+.claude/
+
+# Build artifacts
+build/
+*.obj
+*.lib
+*.exp
+*.pdb
+
+# PowerShell scripts (local build helpers)
+build_direct.ps1
