@@ -3,7 +3,7 @@ setlocal enabledelayedexpansion
 
 :: Find VS Build Tools - check common install locations
 set "VCVARS="
-for %%v in (2022 2019 2017) do (
+for %%v in (18 2022 2019 2017) do (
     for %%e in (BuildTools Community Professional Enterprise) do (
         set "try=C:\Program Files (x86)\Microsoft Visual Studio\%%v\%%e\VC\Auxiliary\Build\vcvars32.bat"
         if exist "!try!" if "!VCVARS!"=="" set "VCVARS=!try!"
