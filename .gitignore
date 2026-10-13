@@ -16,3 +16,6 @@ build/
 
 # PowerShell scripts (local build helpers)
 build_direct.ps1
+
+# Markdown (README.md stays tracked)
+*.md
