@@ -21,13 +21,13 @@ Works on Windows and on Linux under Proton.
 
 ## Install
 
-- **KEK Mod installer:** NETWORK MODS → LOBBY PATCH → INSTALL.
+- **[Civ V Mod Installer](https://github.com/OBLASTWAR/civ5-mod-installer):** NETWORK MODS → LOBBY PATCH → INSTALL.
 - **Manually:** in the game folder, rename `steam_api.dll` to
   `steam_api_orig.dll`, then copy `steam_api.dll` from the
   [latest release](https://github.com/OBLASTWAR/civ5-lobby-patch/releases/latest) into it.
 
 ## Uninstall
 
-- **KEK Mod installer:** LOBBY PATCH → UNINSTALL.
+- **[Civ V Mod Installer](https://github.com/OBLASTWAR/civ5-mod-installer):** LOBBY PATCH → UNINSTALL.
 - **Manually:** delete `steam_api.dll` and rename `steam_api_orig.dll` back to
   `steam_api.dll`. Steam's "Verify integrity of game files" also restores it.
